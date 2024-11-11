@@ -1,0 +1,96 @@
+/* general-style.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ff0000;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.price-list {
+    list-style: none;
+    padding: 0;
+}
+
+.price-list li {
+    margin-bottom: 20px;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-item span {
+    font-size: 1.2em;
+}
+
+.price-item .price {
+    color: #ff0000;
+    min-width: 120px;
+    text-align: right;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #555;
+    margin-left: 10px;
+}
+
+/* Color principal para botones, títulos y elementos destacados */
+.primary-color {
+    color: #ff0000;
+}
+
+/* Color secundario para fondos */
+.secondary-bg {
+    background-color: #ffffff;
+}
+/* Botón de volver a la página principal */
+.btn-return {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff0000; /* Color principal */
+    color: #ffffff; /* Color secundario (blanco) */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-return:hover {
+    background-color: #cc0000; /* Color más oscuro en hover */
+}
